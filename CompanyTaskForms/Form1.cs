@@ -24,7 +24,6 @@ namespace CompanyTaskForms
         {
             InitializeComponent();
 
-            // Подписываемся на события
             buttonLoadXml.Click += buttonLoadXml_Click;
             treeView1.AfterSelect += treeView1_AfterSelect;
             treeView1.AfterSelect += treeView1_AfterSelect_1;
@@ -64,7 +63,6 @@ namespace CompanyTaskForms
                         TreeNode rootNode = BuildTreeNode("root", rootObject);
                         treeView1.Nodes.Add(rootNode);
 
-                        // Раскрыть все узлы
                         treeView1.ExpandAll();
                     }
                     catch (Exception ex)
@@ -107,7 +105,6 @@ namespace CompanyTaskForms
         {
             TreeNode selectedNode = e.Node;
 
-            // Если это листовой узел (ключ:значение), то не отображаем таблицу
             if (selectedNode.Nodes.Count == 0 && selectedNode.Text.Contains(":"))
             {
                 dataGridView1.DataSource = null;
@@ -185,8 +182,8 @@ namespace CompanyTaskForms
         {
             if (company == null) return;
 
-            dataGridView1.DataSource = null; // Сначала отвязываем DataSource
-            dataGridView1.Columns.Clear();  // Теперь можно безопасно очистить столбцы
+            dataGridView1.DataSource = null; 
+            dataGridView1.Columns.Clear();  
             dataGridView1.Rows.Clear();
 
             dataGridView1.Columns.Add("Property", "Свойство");
