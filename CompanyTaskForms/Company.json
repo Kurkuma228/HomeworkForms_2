@@ -1,0 +1,65 @@
+{
+  "GlobalCompany": {
+    "Employee": {
+      "Name": "Иван Петров",
+      "Nationality": "Россия",
+      "Position": "Системный аналитик",
+      "Department": "IT",
+      "EmploymentDate": "2020-03-15",
+      "Address": {
+        "City": "Москва",
+        "Street": "Ленинский проспект, д.12"
+      },
+      "Contact": {
+        "Email": "ivan.petrov@company.com",
+        "Phone": "+7 999 123-45-67"
+      }
+    },
+    "Office": {
+      "Location": {
+        "Country": "Германия",
+        "City": "Берлин"
+      },
+      "Address": {
+        "Street": "Berliner Straße 45",
+        "PostalCode": "10115"
+      },
+      "EmployeesCount": 120,
+      "EstablishedDate": "2018-06-01",
+      "Manager": "Martina Schmidt",
+      "Departments": {
+        "DepartmentList": [
+          "IT",
+          "HR",
+          "Logistics"
+        ]
+      }
+    },
+    "Project": {
+      "Name": "Global ERP Upgrade",
+      "Description": "Обновление корпоративной системы управления ресурсами по всем офисам.",
+      "StartDate": "2023-09-01",
+      "EndDate": "2024-12-31",
+      "BudgetUSD": 2500000,
+      "Team": {
+        "Members": [
+          {
+            "Name": "Emily Johnson",
+            "Role": "Project Manager"
+          },
+          {
+            "Name": "Lars Müller",
+            "Role": "Lead Developer"
+          }
+        ]
+      },
+      "Regions": {
+        "RegionList": [
+          "Europe",
+          "Asia",
+          "North America"
+        ]
+      }
+    }
+  }
+}

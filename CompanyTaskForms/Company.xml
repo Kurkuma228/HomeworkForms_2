@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GlobalCompany>
+	<Employee>
+		<Name>Иван Петров</Name>
+		<Nationality>Россия</Nationality>
+		<Position>Системный аналитик</Position>
+		<Department>IT</Department>
+		<EmploymentDate>2020-03-15</EmploymentDate>
+		<Address>
+			<City>Москва</City>
+			<Street>Ленинский проспект, д.12</Street>
+		</Address>
+		<Contact>
+			<Email>ivan.petrov@company.com</Email>
+			<Phone>+7 999 123-45-67</Phone>
+		</Contact>
+	</Employee>
+
+	<Office>
+		<Location>
+			<Country>Германия</Country>
+			<City>Берлин</City>
+		</Location>
+		<Address>
+			<Street>Berliner Straße 45</Street>
+			<PostalCode>10115</PostalCode>
+		</Address>
+		<EmployeesCount>120</EmployeesCount>
+		<EstablishedDate>2018-06-01</EstablishedDate>
+		<Manager>Martina Schmidt</Manager>
+		<Departments>
+			<Department>IT</Department>
+			<Department>HR</Department>
+			<Department>Logistics</Department>
+		</Departments>
+	</Office>
+
+	<Project>
+		<Name>Global ERP Upgrade</Name>
+		<Description>Обновление корпоративной системы управления ресурсами по всем офисам.</Description>
+		<StartDate>2023-09-01</StartDate>
+		<EndDate>2024-12-31</EndDate>
+		<BudgetUSD>2500000</BudgetUSD>
+		<Team>
+			<Member>
+				<Name>Emily Johnson</Name>
+				<Role>Project Manager</Role>
+			</Member>
+			<Member>
+				<Name>Lars Müller</Name>
+				<Role>Lead Developer</Role>
+			</Member>
+		</Team>
+		<Regions>
+			<Region>Europe</Region>
+			<Region>Asia</Region>
+			<Region>North America</Region>
+		</Regions>
+	</Project>
+</GlobalCompany>
